@@ -6,7 +6,7 @@
 </div>
 
 <h4 align="center">
- Website for <a href="https://phxrecover.com" target="_blank">Phoenix Wellness and Recovery</a>, a conditioning and high-end physical recovery company. Built with <a href="https://www.reactjs.org/" target="_blank">React</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+ Website for <a href="https://phxrecover.com" target="_blank">Phoenix Wellness and Recovery</a>, a conditioning and high-end physical recovery company. Built with <a href="https://www.nextjs.org/" target="_blank">Next.js</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </h4>
 
 <p align="center">
@@ -29,16 +29,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/oarnosa/phoenix-wellness.git
+$ git clone https://github.com/oarnosa/phoenix-wellness-next.git
 
 # Go into the repository
-$ cd phoenix-wellness
+$ cd phoenix-wellness-next
 
 # Install dependencies
-$ yarn install
+$ npm install
 
 # Run the app
-$ yarn start
+$ npm run dev
 ```
 
 ## Color Reference
