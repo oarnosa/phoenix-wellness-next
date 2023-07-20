@@ -1,0 +1,22 @@
+@import '../../assets/styles/main.scss';
+
+.embla {
+  overflow: hidden;
+
+  &__container {
+    display: flex;
+    max-width: 1150px;
+  }
+
+  &__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #333;
+      aspect-ratio: 16/9;
+    }
+  }
+}

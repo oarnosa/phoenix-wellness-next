@@ -1,0 +1,75 @@
+// Modify global shared styles
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&display=swap');
+
+// Typography for all elements
+:root {
+  font-size: 62.5%; /* 10px root */
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    font-size: 57.5%;
+  }
+
+  @media screen and (max-width: $breakpoint-laptop) {
+    font-size: 52.5%;
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    font-size: 50%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: $font-primary;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.8rem;
+  line-height: 1.75;
+  margin-bottom: 1em;
+  letter-spacing: 0.25rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.85;
+  margin-bottom: 0.8em;
+  letter-spacing: 0.25rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 2.05;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.25rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.7rem;
+  line-height: 2;
+  margin-bottom: 0.45em;
+  letter-spacing: 0.25rem;
+}
+
+p,
+span {
+  font-family: $font-secondary;
+  font-size: 1.7rem;
+  line-height: 2;
+  margin-bottom: 2.2em;
+}
+
+li {
+  font-family: $font-secondary;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}

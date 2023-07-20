@@ -1,0 +1,34 @@
+@import '../../assets/styles/main.scss';
+
+.review {
+  margin: 0.5em 0;
+  max-width: 750px;
+
+  &__stars {
+    color: $color-tertiary;
+    display: flex;
+    height: 24px;
+  }
+
+  &__subject {
+    margin: 0.5em 0;
+  }
+
+  &__comment {
+    margin: 0 0 0.5em;
+  }
+
+  &__author {
+    color: $color-tertiary;
+    margin: 0;
+  }
+
+  &--inverted {
+    text-align: right;
+    justify-content: end;
+
+    .review__stars {
+      justify-content: end;
+    }
+  }
+}
