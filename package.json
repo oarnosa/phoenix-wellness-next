@@ -1,5 +1,5 @@
 {
-  "name": "phoenix-wellness-v2",
+  "name": "phoenix-wellness-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,8 +14,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "embla-carousel-react": "^8.0.0-rc11",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.10",
     "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -23,6 +21,8 @@
     "sharp": "^0.32.3"
   },
   "devDependencies": {
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
     "eslint-config-prettier": "^8.8.0"
   }
 }

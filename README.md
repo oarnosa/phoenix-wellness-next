@@ -74,4 +74,4 @@ $ npm run dev
 ## License
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- While the code is free to use and distribute as it was built by myself, <a href="http://orlandoarnosa.com" target="_blank">Orlando Arnosa</a>, all images, videos, logos, and assets are owned by <a href="http://phxrecover.com" target="_blank">Phoenix Wellness and Recovery</a>.
+- All images, videos, logos, and assets are owned by <a href="http://phxrecover.com" target="_blank">Phoenix Wellness and Recovery</a>.
