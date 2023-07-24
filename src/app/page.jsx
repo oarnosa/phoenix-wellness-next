@@ -1,15 +1,14 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import LogoEmblem from '@/assets/logo-emblem.svg';
 import LogoTextLight from '@/assets/logo-text-light.svg';
 import reviewsData from '@/assets/reviews.data.json';
-import Plan from '@/components/plan/plan.component';
-import Review from '@/components/review/review.component';
 import Carousel from '@/components/carousel/carousel.component';
+import Plan from '@/components/plan/plan.component';
 import Profile from '@/components/profile/profile.component';
+import Review from '@/components/review/review.component';
 
 import './page.styles.scss';
 

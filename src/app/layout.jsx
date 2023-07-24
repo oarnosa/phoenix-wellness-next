@@ -6,9 +6,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-import Nav from '@/components/nav/nav.component';
 import Footer from '@/components/footer/footer.component';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import Nav from '@/components/nav/nav.component';
 
 library.add(faFacebook, faLinkedinIn, faInstagram, faStar);
 
@@ -25,6 +25,11 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&display=swap"
+        rel="stylesheet"
+        precedence="default"
+      />
       {process.env.GA_TRACKING_ID && (
         <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID} />
       )}
