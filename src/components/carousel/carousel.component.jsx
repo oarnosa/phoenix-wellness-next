@@ -4,6 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
 
 import './carousel.styles.scss';
+import Placeholder from '../placeholder/placeholder.component';
 
 const Carousel = ({ name, description, images }) => {
   const [emblaRef] = useEmblaCarousel({ loop: false });
@@ -11,11 +12,13 @@ const Carousel = ({ name, description, images }) => {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        {images.map((image, index) => (
-          <div className="embla__slide" key={index}>
-            <Image src={image} alt={image} width={1920} height={1080} />
-          </div>
-        ))}
+        {!images && <Placeholder />}
+        {images &&
+          images.map((image, index) => (
+            <div className="embla__slide" key={index}>
+              <Image src={image} alt={image} width={1920} height={1080} />
+            </div>
+          ))}
       </div>
     </div>
   );

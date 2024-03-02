@@ -48,6 +48,9 @@
   &--container {
     margin: 2.4em 0;
     align-self: center;
+    height: 100%;
+    min-height: 500px;
+    background-color: $color-primary;
 
     @media (min-width: $breakpoint-laptop) {
       margin: 0;

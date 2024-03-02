@@ -134,32 +134,35 @@ const Home = () => (
           </h2>
         </div>
         <Profile name={'DANNY'} image={'/images/team/profile-danny.jpg'}>
-          I am a professional with a Masters degree in occupational therapy,
-          with experience and specialty in orthopedics and body mechanics. Being
-          an athlete myself, I understand the importance of proper recovery from
-          the daily stress sports or physical activity can put on muscles of the
-          body. I aspire to utilize evidence-based practice and techniques to
-          provide the highest quality recovery possible, to get you back to
-          doing what you love as quickly as possible.
+          Meet Danny, an orthopedic specialized occupational therapist, with
+          experience in outpatient ortho and body mechanics. Danny understands
+          the importance of proper recovery from the daily stress sports or
+          physical activity can put on muscles of the body. Danny utilizes
+          evidence-based practice and techniques to provide the highest quality
+          recovery possible, to get you back to doing what you love as quickly
+          as possible.
         </Profile>
         <Profile
-          name={'MADISON'}
-          image={'/images/team/profile-madison.jpg'}
+          name={'VICKY'}
+          image={'/images/team/profile-vicky.jpg'}
           inverted
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          odio tempore fugiat nam dolores repellendus at explicabo dignissimos
-          quam officia facilis libero fugit delectus, voluptas a beatae pariatur
-          ratione laboriosam natus quaerat molestiae. Non reprehenderit enim
-          odit possimus voluptatem, molestiae esse nobis et? Eveniet alias porro
-          aliquid repellendus voluptatibus obcaecati?
+          Meet Vicky, a dedicated and highly skilled physical therapist
+          specializing in manual therapy and sports performance. With a passion
+          for optimizing movement and enhancing athletic capabilities, Vicky
+          brings a wealth of expertise to the field. Through hands-on manual
+          therapy techniques, she focuses on promoting joint mobility, reducing
+          pain, and improving overall musculoskeletal function.
         </Profile>
-        <Profile name={'VICKY'} image={'/images/team/profile-vicky.jpg'}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-          corporis quidem assumenda nam quisquam quaerat, incidunt autem odit
-          laudantium rerum? At, perferendis et deserunt repellat optio quae ab
-          facere dolor. Minima, deleniti? Ratione nobis labore dicta excepturi?
-          Dolores reprehenderit perferendis, impedit totam omnis ipsum dicta!
+        <Profile name={'MADISON'}>
+          As the social media and office manager at our therapy clinic, Madison
+          stands out for her exceptional customer service skills and commitment
+          to client satisfaction. With a warm and attentive approach, she
+          ensures that every clients experience is positive and seamless.
+          Madison consistently prioritizes client schedules, making it a
+          priority to accommodate their preferences and needs when booking
+          visits, reflecting her dedication to providing a personalized and
+          client-centric experience at our clinic.
         </Profile>
       </div>
     </section>
@@ -252,10 +255,10 @@ const Home = () => (
           <div className="equipment__info">
             <h2>PNEUMATIC COMPRESSION</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium ab molestias nesciunt exercitationem perferendis magni
-              aliquam eos inventore mollitia impedit. Repellendus dolorem quod
-              eaque beatae nisi. Voluptates error facere harum?
+              Experience our Pneumatic Compression Therapy, a sophisticated
+              solution for precision-focused physical rehabilitation. Utilizing
+              controlled air pressure, our devices prioritize targeted recovery,
+              pain reduction, and overall well-being.
             </p>
           </div>
         </div>
@@ -263,10 +266,10 @@ const Home = () => (
           <div className="equipment__info">
             <h2>TEMPERATURE CONTRAST</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium ab molestias nesciunt exercitationem perferendis magni
-              aliquam eos inventore mollitia impedit. Repellendus dolorem quod
-              eaque beatae nisi. Voluptates error facere harum?
+              Discover the tailored therapeutic benefits of our Temperature
+              Contrast Devices (TCDs) offering precise temperature control,
+              optimizing recovery, reducing inflammation, and promoting overall
+              wellness.
             </p>
           </div>
           <Carousel
@@ -277,6 +280,19 @@ const Home = () => (
               '/images/equipment/temp_4.jpg',
             ]}
           />
+        </div>
+        <div className="equipment__wrapper">
+          <Carousel />
+          <div className="equipment__info">
+            <h2>Cold Plunge</h2>
+            <p>
+              Immerse yourself in our cold water plunge to trigger
+              vasoconstriction, combating inflammation and muscle soreness. The
+              benefits extend to improved circulation, heightened alertness, and
+              increased energy levels. Dive into the practice that enhances
+              physical performance and supports a healthy lifestyle.
+            </p>
+          </div>
         </div>
       </div>
     </section>
