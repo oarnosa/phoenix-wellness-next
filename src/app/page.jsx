@@ -282,7 +282,12 @@ const Home = () => (
           />
         </div>
         <div className="equipment__wrapper">
-          <Carousel />
+          <Carousel
+            images={[
+              '/images/equipment/plunge_1.jpg',
+              '/images/equipment/plunge_2.jpg',
+            ]}
+          />
           <div className="equipment__info">
             <h2>Cold Plunge</h2>
             <p>
