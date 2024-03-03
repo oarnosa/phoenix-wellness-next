@@ -194,9 +194,9 @@ const Home = () => (
               <li>Temperature Contrast Technology/Modalities</li>
             </ul>
           </Plan>
-          <Plan special icon="/images/plans/plan-gold.svg" name="GOLD">
+          <Plan special icon="/images/plans/plan-silver.svg" name="SILVER">
             <li>
-              Schedule <b>3</b> &#8212; 1 hour sessions a month including:
+              Schedule <b>2</b> &#8212; 1 hour sessions a month including:
             </li>
             <ul className="plan__list-sub">
               <li>Manual Treatment With Problem Area Focus</li>
@@ -215,9 +215,9 @@ const Home = () => (
               <li>Temperature Contrast Technology/Modalities</li>
             </ul>
           </Plan>
-          <Plan icon="/images/plans/plan-silver.svg" name="SILVER">
+          <Plan icon="/images/plans/plan-gold.svg" name="GOLD">
             <li>
-              Schedule <b>2</b> &#8212; 1 hour sessions a month including:
+              Schedule <b>3</b> &#8212; 1 hour sessions a month including:
             </li>
             <ul className="plan__list-sub">
               <li>Manual Treatment With Problem Area Focus</li>
