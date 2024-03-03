@@ -5,6 +5,7 @@ import {
   faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { Analytics } from '@vercel/analytics/react';
 
 import Footer from '@/components/footer/footer.component';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
@@ -36,6 +37,7 @@ const RootLayout = ({ children }) => {
       <body>
         <Nav />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>

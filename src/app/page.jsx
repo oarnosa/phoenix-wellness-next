@@ -341,10 +341,10 @@ const Home = () => (
             <h2 className="contact__headline-phrase">CONTACT US.</h2>
           </div>
           <p className="contact__statement">
-            Your convenience is our top priority. At Phoenix we bring our
-            service and equipment to you whether it is at home, work, or
-            anywhere else at a time most convenient to you. Reach out to us via
-            phone, email, or social media and book a session today.
+            Your satisfaction is our utmost concern. At Phoenix, we welcome you
+            to our location where we provide exceptional service and top-notch
+            equipment. Contact us through phone, email, or social media to
+            schedule your session today.
           </p>
         </div>
         <div className="contact__info">
