@@ -323,7 +323,7 @@ const Home = () => (
         </div>
         <Link
           className="reviews__more"
-          href="https://shorturl.at/rIMPU"
+          href="https://maps.app.goo.gl/A4H9ateJpzQUmo1K7"
           target="_blank"
         >
           SEE MORE REVIEWS
