@@ -289,7 +289,7 @@ const Home = () => (
             ]}
           />
           <div className="equipment__info">
-            <h2>Cold Plunge</h2>
+            <h2>COLD PLUNGE</h2>
             <p>
               Immerse yourself in our cold water plunge to trigger
               vasoconstriction, combating inflammation and muscle soreness. The
